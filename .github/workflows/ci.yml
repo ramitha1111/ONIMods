@@ -1,6 +1,7 @@
 name: CI on reference Oxygen Not Included assemblies
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
